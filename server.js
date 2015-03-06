@@ -7,7 +7,7 @@ var app = express();
 var http = require('http').Server(app);
 
 var options = {
-    port: process.env.VCAP_APP_PORT || 3000,
+    port: process.env.VCAP_APP_PORT || 3000
 };
 
 app.use(useragent.express());
