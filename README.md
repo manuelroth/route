@@ -13,7 +13,7 @@ We use [express-useragent](https://github.com/biggora/express-useragent) for
 detecting mobile platforms and redirect according to the table below.
 
 Client        | Redirection
-------------------------
+--------------|---------
 iPad          | [App Store](https://itunes.apple.com/app/shoggoth-rising/id729429892)
 iPod          | [App Store](https://itunes.apple.com/app/shoggoth-rising/id729429892)
 iPhone        | [App Store](https://itunes.apple.com/app/shoggoth-rising/id729429892)
