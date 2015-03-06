@@ -6,6 +6,8 @@ It lets you add links to all appstores and provides a simple short link. If a us
 
 ## How it works
 
+![Redirection flow](flow.png)
+
 Let's say we want to inform people about an update
 about the game [Shoggoth Rising](http://shoggothrising.com/en/).
 
