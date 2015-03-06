@@ -1,0 +1,28 @@
+{
+  "name": "route",
+  "version": "1.0.0",
+  "description": "A simple service which lets you route people to the corresponding appstore",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manuelroth/route.git"
+  },
+  "author": "Lukas Martinelli <me@lukasmartinelli.ch> (http://lukasmartinelli.ch/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelroth/route/issues"
+  },
+  "homepage": "https://github.com/manuelroth/route",
+  "dependencies": {
+    "express": "^4.12.2",
+    "express-useragent": "^0.1.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-eslint": "^0.5.0"
+  }
+}
