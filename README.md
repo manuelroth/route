@@ -1,4 +1,5 @@
-# route
+# rout.ly ![add travis badge here]()
+
 If a developer wants to launch a new app or push out a major update, they post links to every appstore their app is available on. The users have to decide which one works for their device.
 
 Wouldn't it be great if there was just one short link, which automatically routes them to the corresponding appstore. Thats exactly what route does.
