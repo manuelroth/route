@@ -19,6 +19,8 @@ app.get('/', function(req, res) {
         console.log('Hi there, still using Android?');
     } else if (req.useragent.isLinux) {
         console.log('I cant help you');
+    } else if (req.useragent.isDesktop) {
+    	console.log('You are on a desktop');
     }
     res.send(req.useragent);
 });
