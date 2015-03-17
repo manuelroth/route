@@ -41,16 +41,9 @@ button {
     outline: 0px none;
     color: #fff;
 }
-.row {
-    width: 100%;
-    margin-bottom: 20px;
-    display: flex;
-}
-.side {
-    width: 25%;
-}
 .center {
-    width: 50%;
+    margin: 0 auto;
+    width: 80%;
 }
 @media only screen and (max-width: 900px) {
     .heading {
@@ -61,21 +54,5 @@ button {
     }
     .appstore-link {
         font-size: 1.5em;
-    }
-}
-@media only screen and (max-width: 600px) {
-    .heading {
-        font-size: 1.5em;
-    }
-    button {
-        font-size: 1em;
-    }
-    .appstore-link {
-        font-size: 1em;
-    }
-}
-@media only screen and (max-width: 460px) {
-    .heading {
-        font-size: 1em;
     }
 }
