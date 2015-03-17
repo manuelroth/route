@@ -9,9 +9,7 @@
     <script>
     function init() {
         gapi.client.setApiKey('AIzaSyAj_RzplX73X3ga1QvTHWqcT-cAejPbVyU');
-        gapi.client.load('urlshortener', 'v1').then(function() {
-            console.log('urlshortener loaded.');
-        });
+        gapi.client.load('urlshortener', 'v1');
     }
     </script>
     <script src="https://apis.google.com/js/client.js?onload=init"></script>

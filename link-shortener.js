@@ -8,9 +8,7 @@ $(function() {
 
     var android = getUrlVar('android');
     var ios = getUrlVar('ios');
-    var bla = getUrlVar('bka');
-    console.log(android);
-    console.log(bla);
+
     if (android !== '' && navigator.userAgent.match(/(Android)/)) {
         window.location.href = android;
     }
